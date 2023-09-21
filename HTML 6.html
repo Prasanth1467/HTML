@@ -1,0 +1,27 @@
+<!--Building Forms For User Input-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to my basic Web page!</h1>
+
+    <form action="button">
+        <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required><br><br>
+        <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required><br><br>
+        <label for="message">Message:</label><br><br>
+        <textarea id="message" name="message" required></textarea><br><br>
+        <input type="submit" value="Submit"> 
+    </form><br><br><br>
+<!--Form Submission-->
+<form action="submit.php" method="post">
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
